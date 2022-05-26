@@ -1,4 +1,5 @@
 import { showError } from "./modules/loginError.js";
+import chat from "../pages/main/chat.pug";
 
 form.addEventListener('submit', function (event) {
 
@@ -35,7 +36,7 @@ form.addEventListener('submit', function (event) {
       event.preventDefault();
     }    
     else {
-      window.location.href = "./pages/main/main.html"
+      window.location.href = chat;
       event.preventDefault();
     }
 

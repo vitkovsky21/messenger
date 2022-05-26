@@ -100,7 +100,7 @@ form.addEventListener('submit', function (event) {
       event.preventDefault();
     }        
     else {
-      window.location.href = "../../index.pug";
+      window.location.href = "../../index.html";
       event.preventDefault();
     }
 
